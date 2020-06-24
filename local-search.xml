@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>pom.xml文件配置</title>
+    <link href="/2020/06/25/pom-xml%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE/"/>
+    <url>/2020/06/25/pom-xml%E6%96%87%E4%BB%B6%E9%85%8D%E7%BD%AE/</url>
+    
+    <content type="html"><![CDATA[<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><blockquote><p>此处记录Intellij IDEA编辑器下的 <code>pom.xml</code> 文件的正确配置格式。</p></blockquote><pre><code class="hljs xml"><span class="hljs-meta">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">project</span> <span class="hljs-attr">xmlns</span>=<span class="hljs-string">"http://maven.apache.org/POM/4.0.0"</span></span><span class="hljs-tag">         <span class="hljs-attr">xmlns:xsi</span>=<span class="hljs-string">"http://www.w3.org/2001/XMLSchema-instance"</span></span><span class="hljs-tag">         <span class="hljs-attr">xsi:schemaLocation</span>=<span class="hljs-string">"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">modelVersion</span>&gt;</span>4.0.0<span class="hljs-tag">&lt;/<span class="hljs-name">modelVersion</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>cn.tedu<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>flink-1910<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>1.0-SNAPSHOT<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>    <span class="hljs-tag">&lt;<span class="hljs-name">dependencies</span>&gt;</span>        <span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.apache.flink<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>flink-java<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>1.10.1<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>        <span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>        <span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.apache.flink<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>flink-streaming-java_2.11<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>1.10.1<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>        <span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>        <span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.apache.flink<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>flink-clients_2.11<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>            <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>1.10.1<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>        <span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>    <span class="hljs-tag">&lt;/<span class="hljs-name">dependencies</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">project</span>&gt;</span></code></pre>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>pom</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>FirstPost</title>
     <link href="/2020/06/21/FirstPost/"/>
     <url>/2020/06/21/FirstPost/</url>
